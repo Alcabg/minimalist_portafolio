@@ -17,8 +17,8 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "alexcabrera",
-        "url": "https://linkedin.com/in/alexcabrerag"
+        "username": "Alejandro Cabrera González",
+        "url": "https://linkedin.com/in/alejandrocabreragonzalez"
       },
       {
         "network": "X",
@@ -192,6 +192,10 @@
     {
       "language": "English",
       "fluency": "Advanced"
+    },
+    {
+      "language": "Dutch",
+      "fluency": "Beginner"
     }
   ],
   "interests": [
