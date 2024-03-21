@@ -1,3 +1,132 @@
-<footer></footer>
-<script></script>
-<style></style>
+---
+import { basics } from "@cv";
+
+const { profiles } = basics;
+
+const SOCIAL_ICONS: Record<string, string> = {
+  GitHub: `<svg style="margin-right:8px"
+  width="20"
+  height="20"
+  viewBox="0 0 16 16"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  ><path
+    fill="currentColor"
+    fill-rule="evenodd"
+    d="M8 1C4.133 1 1 4.13 1 7.993c0 3.09 2.006 5.71 4.787 6.635.35.064.478-.152.478-.337 0-.166-.006-.606-.01-1.19-1.947.423-2.357-.937-2.357-.937-.319-.808-.778-1.023-.778-1.023-.635-.434.048-.425.048-.425.703.05 1.073.72 1.073.72.624 1.07 1.638.76 2.037.582.063-.452.244-.76.444-.935-1.554-.176-3.188-.776-3.188-3.456 0-.763.273-1.388.72-1.876-.072-.177-.312-.888.07-1.85 0 0 .586-.189 1.924.716A6.711 6.711 0 018 4.381c.595.003 1.194.08 1.753.236 1.336-.905 1.923-.717 1.923-.717.382.963.142 1.674.07 1.85.448.49.72 1.114.72 1.877 0 2.686-1.638 3.278-3.197 3.45.251.216.475.643.475 1.296 0 .934-.009 1.688-.009 1.918 0 .187.127.404.482.336A6.996 6.996 0 0015 7.993 6.997 6.997 0 008 1z"
+    clip-rule="evenodd"></path></svg`,
+  LinkedIn: `<svg style="margin-right:8px"
+  width="20"
+  height="20"
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M18.72 3.99997H5.37C5.19793 3.99191 5.02595 4.01786 4.86392 4.07635C4.70189 4.13484 4.55299 4.22471 4.42573 4.34081C4.29848 4.45692 4.19537 4.59699 4.12232 4.75299C4.04927 4.909 4.0077 5.07788 4 5.24997V18.63C4.01008 18.9901 4.15766 19.3328 4.41243 19.5875C4.6672 19.8423 5.00984 19.9899 5.37 20H18.72C19.0701 19.9844 19.4002 19.8322 19.6395 19.5761C19.8788 19.32 20.0082 18.9804 20 18.63V5.24997C20.0029 5.08247 19.9715 4.91616 19.9078 4.76122C19.8441 4.60629 19.7494 4.466 19.6295 4.34895C19.5097 4.23191 19.3672 4.14059 19.2108 4.08058C19.0544 4.02057 18.8874 3.99314 18.72 3.99997ZM9 17.34H6.67V10.21H9V17.34ZM7.89 9.12997C7.72741 9.13564 7.5654 9.10762 7.41416 9.04768C7.26291 8.98774 7.12569 8.89717 7.01113 8.78166C6.89656 8.66615 6.80711 8.5282 6.74841 8.37647C6.6897 8.22474 6.66301 8.06251 6.67 7.89997C6.66281 7.73567 6.69004 7.57169 6.74995 7.41854C6.80986 7.26538 6.90112 7.12644 7.01787 7.01063C7.13463 6.89481 7.2743 6.80468 7.42793 6.74602C7.58157 6.68735 7.74577 6.66145 7.91 6.66997C8.07259 6.66431 8.2346 6.69232 8.38584 6.75226C8.53709 6.8122 8.67431 6.90277 8.78887 7.01828C8.90344 7.13379 8.99289 7.27174 9.05159 7.42347C9.1103 7.5752 9.13699 7.73743 9.13 7.89997C9.13719 8.06427 9.10996 8.22825 9.05005 8.3814C8.99014 8.53456 8.89888 8.6735 8.78213 8.78931C8.66537 8.90513 8.5257 8.99526 8.37207 9.05392C8.21843 9.11259 8.05423 9.13849 7.89 9.12997ZM17.34 17.34H15V13.44C15 12.51 14.67 11.87 13.84 11.87C13.5822 11.8722 13.3313 11.9541 13.1219 12.1045C12.9124 12.2549 12.7546 12.4664 12.67 12.71C12.605 12.8926 12.5778 13.0865 12.59 13.28V17.34H10.29V10.21H12.59V11.21C12.7945 10.8343 13.0988 10.5225 13.4694 10.3089C13.84 10.0954 14.2624 9.98848 14.69 9.99997C16.2 9.99997 17.34 11 17.34 13.13V17.34Z"
+    fill="currentColor"></path>
+</svg>
+`,
+};
+
+const profilesInfo = profiles.map(({ network, url }) => {
+  const icon = SOCIAL_ICONS[network];
+  const firstLetter = network[0].toLocaleUpperCase();
+
+  return {
+    id: network,
+    section: "Social",
+    title: `Visitar ${network}`,
+    url,
+    icon,
+    hotkey: `ctrl+${firstLetter}`,
+  };
+});
+---
+
+<footer class="no__print">
+  Pulsa <kbd>Ctrl</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
+</footer>
+
+<ninja-keys
+  data-info={JSON.stringify(profilesInfo)}
+  placeholder="Buscar comando"
+  hideBreadcrumbs
+>
+</ninja-keys>
+
+<script>
+  import "ninja-keys";
+
+  const ninja = document.querySelector("ninja-keys");
+  if (ninja != null) {
+    const info = ninja.getAttribute("data-info") ?? "[]";
+    const parsedInfo = JSON.parse(info);
+
+    const data = parsedInfo.map((item: any) => {
+      return {
+        ...item,
+        handler: () => {
+          window.open(item.url, "_blank");
+        },
+      };
+    });
+
+    ninja.data = [
+      {
+        id: "print",
+        title: "Imprimir",
+        icon: `<svg style="margin-right:8px" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
+</svg>`,
+        hotkey: "ctrl+P",
+        section: "Acciones",
+        handler: () => {
+          window.print();
+        },
+      },
+      ...data,
+    ];
+  }
+</script>
+<style>
+  @media print {
+    ninja-keys {
+      display: none !important;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  footer {
+    background: #fdfdfd;
+    border-top: 1px solid #eee;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding-block: 8px;
+    text-align: center;
+    font-size: 0.85rem;
+
+    view-timeline-name: --reveal;
+    view-timeline-axis: block;
+
+    animation: linear 0.3s fadeIn;
+    animation-timeline: --reveal;
+    animation-range: entry 100% cover 10%;
+  }
+
+  kbd {
+    background: #eee;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 12px;
+  }
+</style>

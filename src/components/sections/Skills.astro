@@ -1,0 +1,66 @@
+---
+import Section from "../Section.astro";
+import HTML from "@/icons/html.astro";
+import CSS from "@/icons/css.astro";
+import JavaScript from "@/icons/javascript.astro";
+import Vue from "@/icons/vue.astro";
+import Node from "@/icons/nodejs.astro";
+import MySQL from "@/icons/mysql.astro";
+import Git from "@/icons/git.astro";
+import GitHub from "@/icons/GitHub.astro";
+
+import { skills } from "@cv";
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  Vue,
+  Node,
+  MySQL,
+  Git,
+  GitHub,
+};
+---
+
+<Section title="Skills">
+  <ul>
+    {
+      skills.map(({ name }) => {
+        const iconName = name === "Vue.js" ? "Vue" : name;
+        const Icon = SKILLS_ICONS[iconName];
+
+        return (
+          <li>
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    border-radius: 6px;
+    background: #eee;
+    color: black;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.6rem;
+  }
+
+  span:hover {
+    text-decoration: underline;
+    text-decoration-color: #444;
+  }
+</style>
