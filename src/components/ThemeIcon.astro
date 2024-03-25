@@ -24,7 +24,7 @@
     margin: 1rem 1rem;
   }
   .sun {
-    fill: black;
+    fill: rgb(255, 207, 99);
   }
   .moon {
     fill: transparent;
@@ -34,9 +34,10 @@
     fill: transparent;
   }
   :global(.dark) .moon {
-    fill: white;
+    fill: rgb(246, 241, 213);
   }
 </style>
+
 <script is:inline>
   const theme = (() => {
     if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
