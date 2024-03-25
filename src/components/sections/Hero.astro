@@ -100,10 +100,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 
   h1 {
     font-size: 2rem;
+    color: var(--color-h1);
   }
 
   h2 {
-    color: #444;
+    color: var(--color-h2);
     font-weight: 500;
     font-size: 1.1rem;
     text-wrap: balance;
@@ -117,7 +118,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
   }
 
   span {
-    color: #666;
+    color: var(--color-span);
     display: flex;
     align-items: center;
     gap: 0.25rem;
@@ -134,7 +135,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
   }
 
   footer a {
-    color: #777;
+    color: var(--color-footer-hero);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -147,7 +148,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
   }
 
   footer a:hover {
-    background: #eee;
+    background: var(--color-footer-hero-hover);
     border: 1px solid #ddd;
   }
 </style>

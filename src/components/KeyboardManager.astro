@@ -59,6 +59,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
   import "ninja-keys";
 
   const ninja = document.querySelector("ninja-keys");
+
   if (ninja != null) {
     const info = ninja.getAttribute("data-info") ?? "[]";
     const parsedInfo = JSON.parse(info);
@@ -106,7 +107,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
   }
 
   footer {
-    background: #fdfdfd;
+    background: var(--color-footer-kbd-bg);
     border-top: 1px solid #eee;
     position: fixed;
     bottom: 0px;
@@ -123,8 +124,12 @@ const profilesInfo = profiles.map(({ network, url }) => {
     animation-range: entry 100% cover 10%;
   }
 
+  .no__print {
+    color: var(--color-article-h4);
+  }
+
   kbd {
-    background: #eee;
+    background: var(--color-kbd-bg);
     border-radius: 4px;
     padding: 2px 4px;
     font-size: 12px;

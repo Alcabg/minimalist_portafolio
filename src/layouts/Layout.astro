@@ -30,6 +30,7 @@ const { image, summary } = basics;
     background: #fff;
     letter-spacing: -0.025rem;
   }
+
   body,
   figure {
     margin: 0;
@@ -77,21 +78,78 @@ const { image, summary } = basics;
   }
 
   p {
-    color: #666;
+    color: var(--color-article-p);
     font-size: 0.9rem;
     line-height: 1.5;
     margin: 0;
     text-wrap: pretty;
   }
 
+  :root {
+    --color-text: #444444;
+    --bold-text: #222;
+    --color-p: #000000;
+    --code: #f2f2f2;
+    --block-quote-border: #999;
+    --block-quote-text: #222;
+    --slider-bg: #dddddd;
+    --slider-bg-before: #fff;
+    --slider-input-bg: #8758ff;
+  }
+  [data-theme="light"] {
+    background-color: #ffffff;
+    --color-text: #444444;
+    --color-h2: #444;
+    --color-h4: #222;
+    --color-footer-kbd-bg: #fdfdfd;
+    --color-footer-hero: #777;
+    --color-footer-hero-hover: #eee;
+    --color-kbd-bg: #eee;
+    --color-time: #555;
+    --color-article-h3: #111;
+    --color-article-h4: #222;
+    --color-article-a: #111;
+    --color-article-p: #666;
+    --color-span: #666;
+    --bold-text: #222;
+    --nav-text: #000000;
+    --code: #f2f2f2;
+    --block-quote-border: #999;
+    --block-quote-text: #222;
+    --slider-bg: #dddddd;
+    --slider-bg-before: #fff;
+    --slider-input-bg: #8758ff;
+  }
+
+  [data-theme="dark"] {
+    background-color: #0d1117;
+    --color-bg: #000;
+    --color-text: #dddddd;
+    --color-h1: #3dd6d1;
+    --color-h2: #3fb990;
+    --color-p: #eee;
+    --color-footer-kbd-bg: #0d1117;
+    --color-footer-hero: #eee;
+    --color-footer-hero-hover: #3fb990;
+    --color-kbd-bg: #eee;
+    --color-time: #3fb990;
+    --color-article-h3: #3f8cb9;
+    --color-article-h4: #436f88;
+    --color-article-a: #3f8cb9;
+    --color-article-p: #eee;
+    --color-span: #eee;
+    --bold-text: #1d1919;
+    --nav-text: #dddddd;
+    --code: #f2f2f2;
+    --block-quote-border: #8e32dc;
+    --block-quote-text: #dddddd;
+  }
+
   @media print {
     .no__print {
       display: none !important;
     }
-    .sun {
-      display: none !important;
-    }
-    .moon {
+    .theme-switch-wrapper {
       display: none !important;
     }
   }
@@ -103,10 +161,7 @@ const { image, summary } = basics;
     .print {
       display: block !important;
     }
-    .sun {
-      display: none !important;
-    }
-    .moon {
+    .theme-switch-wrapper {
       display: none !important;
     }
   }

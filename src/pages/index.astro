@@ -15,28 +15,23 @@ const { name, label } = basics;
 ---
 
 <Layout title={`Portafolio de ${name} - ${label}`}>
-  <ThemeIcon />
   <main>
+    <ThemeIcon />
     <Hero />
     <About />
     <Experience />
     <Education />
     <Projects />
     <Skills />
+
+    <KeyboardManager />
   </main>
 
-  <KeyboardManager />
+  <style>
+    main {
+      padding: 1.5rem; /*4rem*/
+      margin: auto;
+      width: 100%;
+    }
+  </style>
 </Layout>
-
-<style>
-  main {
-    padding: 1.5rem; /*4rem*/
-    margin: auto;
-    width: 100%;
-  }
-
-  html.dark {
-    background-color: #1b143b;
-    color: #fff;
-  }
-</style>
