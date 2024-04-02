@@ -12,7 +12,7 @@ import { work } from "@cv";
           const startYear = new Date(startDate).getFullYear();
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Actual";
-          const years = `${startYear}-${endYear}`;
+          const years = `${startYear} - ${endYear}`;
 
           return (
             <li>
@@ -53,6 +53,7 @@ import { work } from "@cv";
   article h4 {
     color: var(--color-article-h4);
     font-weight: 400;
+    font-style: italic;
   }
 
   header {
