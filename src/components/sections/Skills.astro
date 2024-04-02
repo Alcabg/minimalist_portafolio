@@ -4,8 +4,11 @@ import HTML from "@/icons/html.astro";
 import CSS from "@/icons/css.astro";
 import JavaScript from "@/icons/javascript.astro";
 import Vue from "@/icons/vue.astro";
+import Astrojs from "@/icons/astrojs.astro";
 import Node from "@/icons/nodejs.astro";
 import MySQL from "@/icons/mysql.astro";
+import MongoDB from "@/icons/mongodb.astro";
+import PHP from "@/icons/php.astro";
 import Git from "@/icons/git.astro";
 import GitHub from "@/icons/GitHub.astro";
 
@@ -16,8 +19,11 @@ const SKILLS_ICONS: Record<string, any> = {
   CSS,
   JavaScript,
   Vue,
+  Astrojs,
   Node,
   MySQL,
+  MongoDB,
+  PHP,
   Git,
   GitHub,
 };
@@ -27,7 +33,15 @@ const SKILLS_ICONS: Record<string, any> = {
   <ul>
     {
       skills.map(({ name }) => {
-        const iconName = name === "Vue.js" ? "Vue" : name;
+        const iconName =
+          name === "Vue.js"
+            ? "Vue"
+            : name && name === "Node.js"
+              ? "Node"
+              : name && name === "Astro.js"
+                ? "Astrojs"
+                : name;
+
         const Icon = SKILLS_ICONS[iconName];
 
         return (

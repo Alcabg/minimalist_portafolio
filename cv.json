@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Alejandro Cabrera González",
-    "label": "Junior Full Stack Developer & Historiador",
+    "label": "Junior Full Stack Developer e Historiador",
     "image": "/cv_photo.webp",
     "email": "alexcabrerag@gmail.com",
     "phone": "+34 688888888",
     "url": "",
-    "summary": "Historiador y Junior developer. Vivo en Barcelona, España. He trabajado en diferentes ámbitos",
+    "summary": "Junior full stack developer e Historiador con conocimientos en HTML5, CSS, SCSS, XML, Bootstrap, Java, JavaScript, VUE, Python, R, Shiny, MySQL, MongoDB, PHP y node JS. Vivo en Barcelona, España. He trabajado en diferentes ámbitos realacionados con el sector educativo y el sector cultural.",
     "location": {
       "address": "",
       "postalCode": "08020",
@@ -30,30 +30,34 @@
   },
   "work": [
     {
-      "name": "",
-      "position": "Divulgador sobre Programación Web",
+      "name": "ESSistemas",
+      "position": "Estudiante en prácticas",
       "url": "",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": ["Started the company"]
+      "startDate": "2023-03-08",
+      "endDate": "2023-06-26",
+      "summary": "Desarrollo de prototipos en Figma e Illustrator, así como parte del Portal Partner de la web principal empleando los lenguajes y estilos: HTML, JavaScript y SCSS."
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": ["Started the company"]
+      "name": "Holaluz",
+      "position": "Servicio de atención al cliente",
+      "url": "https://holaluz.com",
+      "startDate": "2021-07-5",
+      "endDate": "2021-08-30",
+      "summary": "Realicé labores de atención al cliente como son la recepción de llamadas telefónicas, asistencia de incidencias, resolución de dudas de los usuarios, así como la realización de tickets."
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": ["Started the company"]
+      "name": "Fundació Salut i Envelliment",
+      "position": "Auxiliar de biblioteca Josep Laporte",
+      "startDate": "2019-10-01",
+      "endDate": "2020-05-24",
+      "summary": "Digitalicé revistas y libros de todos los ámbitos de la medicina mediante los dispositivos: el escáner de impresora HP LaserJet multifunción con display táctil, y el escáner de tecnología híbrida ScanSnap SV60011; Catalogué libros y revistas en el programa Sierra, que permite la gestión de recursos electrónicos, la circulación, la catalogación, las adquisiciones, etc; Lleve a cabo la distribución y gestión de depósitos, así como tareas de atención al público."
+    },
+    {
+      "name": "Barcelona Activa",
+      "position": "Técnico de Soporte Lingüístico en Inglés",
+      "startDate": "2019-10-01",
+      "endDate": "2020-05-24",
+      "summary": "Reforcé las actividades propuestas por el especialista de inglés. Ofrecí ayuda en el desarrollo de tareas relacionadas con el proyecto de lengua extranjera. Colaboré en las acciones y proyectos de inglés en los cuales participó el centro. Fomenté el interés del alumnado en cuanto al uso del inglés en el aula. Mejoré la competencia oral comunicativa del alumnado en inglés. Elaboré materiales de soporte que promovieron la conversación en lengua inglesa."
     }
   ],
   "education": [
@@ -96,27 +100,26 @@
   "skills": [
     {
       "name": "HTML",
-      "level": "Master",
       "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
-      "level": "Master",
       "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
       "name": "JavaScript",
-      "level": "Master",
       "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
-      "name": "Node",
-      "level": "Avanzado",
+      "name": "PHP",
+      "keywords": ["Desarrollo Web", "Backend", "Servidor"]
+    },
+    {
+      "name": "Node.js",
       "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
       "name": "MySQL",
-      "level": "Avanzado",
       "keywords": [
         "Bases de Datos",
         "SQL",
@@ -125,13 +128,20 @@
       ]
     },
     {
+      "name": "MongoDB",
+      "keywords": [
+        "Bases de Datos",
+        "NOSQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
       "name": "Git",
-      "level": "Avanzado",
       "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
       "keywords": [
         "Control de Versiones",
         "Colaboración",
@@ -140,8 +150,11 @@
       ]
     },
     {
-      "name": "Vue",
-      "level": "Avanzado",
+      "name": "Astro.js",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Vue.js",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     }
   ],
@@ -165,16 +178,11 @@
   ],
   "interests": [
     {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
+      "name": "Calistenia",
+      "keywords": ["pull-ups", "chin-ups", "muscle-up", "push-ups"]
     }
   ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }
-  ],
+
   "projects": [
     {
       "name": "mars.codes",
