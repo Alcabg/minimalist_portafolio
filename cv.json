@@ -35,7 +35,7 @@
       "url": "",
       "startDate": "2023-03-08",
       "endDate": "2023-06-26",
-      "summary": "Desarrollo de prototipos en Figma e Illustrator, así como parte del Portal Partner de la web principal empleando los lenguajes y estilos: HTML, JavaScript y SCSS."
+      "summary": "Desarrollé prototipos en Figma e Illustrator, así como parte del Portal Partner de la web principal empleando los lenguajes y estilos: HTML, JavaScript y SCSS."
     },
     {
       "name": "Holaluz",
@@ -62,39 +62,65 @@
   ],
   "education": [
     {
-      "institution": "Universitat Oberta de Catalunya",
+      "institution": "Escoles Universitàries Gimbernat i Tomàs Cerdà",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
-      "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
+      "area": "Técnico Superior en Desarrollo de Aplicaciones Web-Perfil profesional Bioinformática",
+      "studyType": "Grado Superior",
+      "startDate": "2021-09-05",
+      "endDate": "2023-07-01",
+      "score": "8.11",
+      "courses": ""
+    },
+    {
+      "institution": "Universitat Autònoma de Barcelona",
+      "url": "https://www.uab.cat/web/estudiar/la-oferta-de-masteres-oficiales/informacion-general/historia-de-la-ciencia-ciencia-historia-y-sociedad-1096480309770.html?param1=1096480155338",
+      "area": "Historia de la ciencia: Ciencia, Historia y Sociedad",
+      "studyType": "Máster",
+      "startDate": "2016-09-05",
+      "endDate": "2017-07-10",
+      "score": "8.7",
+      "courses": ""
+    },
+    {
+      "institution": "Universitat de Barcelona",
+      "url": "https://www.ub.edu/portal/web/geografia-historia",
+      "area": "Historia",
+      "studyType": "Grado",
+      "startDate": "2011-09-10",
+      "endDate": "2015-06-20",
+      "score": "6.8",
+      "courses": ""
     }
   ],
   "awards": [
     {
       "title": "Award",
-      "date": "2014-11-01",
+      "date": "2000-11-01",
       "awarder": "Company",
-      "summary": "There is no spoon."
+      "summary": ""
     }
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
+      "name": "The Complete JavaScript Course 2024: From Zero to Expert!",
+      "date": "2024-02-07",
+      "issuer": "Udemy",
       "url": "https://certificate.com"
+    },
+    {
+      "name": "Advanced Certificate Exam (CAE)",
+      "date": "2019-11-07",
+      "issuer": "Cambridge University Press & Assessment English",
+      "url": "https://www.cambridge.org/english"
     }
   ],
   "publications": [
     {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "EL MUSEO DE PATOLOGÍA VEGETAL Y TERAPÉUTICA VEGETAL DE BARCELONA ¿UN MUSEO ACTIVO, ÚTILY EFÍMERO?",
+      "publisher": "alejandro Cabrera Gonzalez",
+      "releaseDate": "2017-07-11",
+      "url": "https://mnactec.cat/es/investiga/articulos",
+      "summary": "Trabajo de final de Máster (TFM) sobre el desaparecido Museo de Patología Vegetal de la ciudad de Barcelona. Desarrollado a partir de cuadros biológicos proporcionados por el Museu de la Ciència i de la Tècnica de Catalunya (mNACTEC)."
     }
   ],
   "skills": [
@@ -185,36 +211,11 @@
 
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Juego aviadores",
       "isActive": true,
       "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
-      "url": "https://codi.link",
+      "highlights": ["Aviadores", "Vue.js", "En desarrollo"],
+      "url": "https://mars.codes",
       "github": "https://github.com/midudev/codi.link"
     }
   ]

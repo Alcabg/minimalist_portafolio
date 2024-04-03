@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Alejandro Cabrera González",
-    "label": "Junior Full Stack Developer & Historian",
+    "label": "Junior Full Stack Developer & Historiador",
     "image": "/cv_photo.webp",
     "email": "alexcabrerag@gmail.com",
     "phone": "+34 688888888",
     "url": "",
-    "summary": "Junior full stack developer and historian. Vivo en Barcelona, España. He trabajado en diferentes ámbitos",
+    "summary": "Junior full stack developer and Historian with knowledge in HTML5, CSS, SCSS, XML, Bootstrap, Java, JavaScript, VUE, Python, R, Shiny, MySQL, MongoDB, PHP, and Node.js. I live in Barcelona, Spain. I have worked in various fields related to the educational sector and the cultural sector.",
     "location": {
       "address": "",
       "postalCode": "08020",
@@ -30,41 +30,65 @@
   },
   "work": [
     {
-      "name": "",
-      "position": "Divulgador sobre Programación Web",
+      "name": "ESSistemas",
+      "position": "Intern",
       "url": "",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": ["Started the company"]
+      "startDate": "2023-03-08",
+      "endDate": "2023-06-26",
+      "summary": "I developed prototypes in Figma and Illustrator, as well as parts of the main website's Partner Portal using languages and styles such as HTML, JavaScript, and SCSS."
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": ["Started the company"]
+      "name": "Holaluz",
+      "position": "Customer Service",
+      "url": "https://holaluz.com",
+      "startDate": "2021-07-5",
+      "endDate": "2021-08-30",
+      "summary": "I performed customer service tasks such as answering telephone calls, incident assistance, resolving user queries, as well as ticketing."
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": ["Started the company"]
+      "name": "Fundació Salut i Envelliment",
+      "position": "Library Assistant Josep Laporte",
+      "startDate": "2019-10-01",
+      "endDate": "2020-05-24",
+      "summary": "I digitised journals and books from all areas of medicine using devices: the HP LaserJet multifunction printer scanner with touch display, and the ScanSnap SV60011 hybrid technology scanner; I catalogued books and journals in the Sierra program, which allows for the management of electronic resources, circulation, cataloguing, acquisitions, etc.; I carried out the distribution and management of deposits, as well as public service tasks."
+    },
+    {
+      "name": "Barcelona Activa",
+      "position": "English Language Support Technician",
+      "startDate": "2019-10-01",
+      "endDate": "2020-05-24",
+      "summary": "I digitised magazines and books of all kinds. I reinforced the activities suggested by the English specialist. I offered assistance in the development of tasks related to the foreign language project. I collaborated in the English actions and projects in which the centre participated. I encouraged the students' interest in the use of English in the classroom. I improved the students' oral communicative competence in English. I created support materials that promoted conversation in the English language."
     }
   ],
   "education": [
     {
-      "institution": "Universitat Oberta de Catalunya",
+      "institution": "Escoles Universitàries Gimbernat i Tomàs Cerdà",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
-      "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "score": "4.0",
+      "area": "Web Application Development-Professional profile Bioinformatics",
+      "studyType": "Higher-level Training Cycle",
+      "startDate": "2021-09-05",
+      "endDate": "2023-07-01",
+      "score": "8.11",
+      "courses": ""
+    },
+    {
+      "institution": "Universitat Autònoma de Barcelona",
+      "url": "https://www.uab.cat/web/estudiar/la-oferta-de-masteres-oficiales/informacion-general/historia-de-la-ciencia-ciencia-historia-y-sociedad-1096480309770.html?param1=1096480155338",
+      "area": "History of Science: Science, Historr and Society",
+      "studyType": "Master",
+      "startDate": "2016-09-05",
+      "endDate": "2017-07-10",
+      "score": "8.7",
+      "courses": ""
+    },
+    {
+      "institution": "Universitat de Barcelona",
+      "url": "https://www.ub.edu/portal/web/geografia-historia",
+      "area": "History",
+      "studyType": "Degree",
+      "startDate": "2011-09-10",
+      "endDate": "2015-06-20",
+      "score": "6.8",
       "courses": ["DB1101 - Basic SQL"]
     }
   ],
@@ -78,45 +102,50 @@
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
+      "name": "The Complete JavaScript Course 2024: From Zero to Expert!",
+      "date": "2024-02-07",
+      "issuer": "Udemy",
       "url": "https://certificate.com"
+    },
+    {
+      "name": "Advanced Certificate Exam (CAE)",
+      "date": "2019-11-07",
+      "issuer": "Cambridge University Press & Assessment English",
+      "url": "https://www.cambridge.org/english"
     }
   ],
   "publications": [
     {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "EL MUSEO DE PATOLOGÍA VEGETAL Y TERAPÉUTICA VEGETAL DE BARCELONA ¿UN MUSEO ACTIVO, ÚTILY EFÍMERO?",
+      "publisher": "alejandro Cabrera Gonzalez",
+      "releaseDate": "2017-07-11",
+      "url": "https://mnactec.cat/es/investiga/articulos",
+      "summary": "Master's Thesis on the now-defunct Museum of Plant Pathology in the city of Barcelona. Developed from biological frameworks provided by the Museum of Science and Technology of Catalonia (mNACTEC)."
     }
   ],
   "skills": [
     {
       "name": "HTML",
-      "level": "Master",
       "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
-      "level": "Master",
       "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
       "name": "JavaScript",
-      "level": "Master",
       "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
-      "name": "Node",
-      "level": "Avanzado",
+      "name": "PHP",
+      "keywords": ["Desarrollo Web", "Backend", "Servidor"]
+    },
+    {
+      "name": "Node.js",
       "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
       "name": "MySQL",
-      "level": "Avanzado",
       "keywords": [
         "Bases de Datos",
         "SQL",
@@ -125,13 +154,20 @@
       ]
     },
     {
+      "name": "MongoDB",
+      "keywords": [
+        "Bases de Datos",
+        "NOSQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
       "name": "Git",
-      "level": "Avanzado",
       "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
       "keywords": [
         "Control de Versiones",
         "Colaboración",
@@ -140,8 +176,11 @@
       ]
     },
     {
-      "name": "Vue",
-      "level": "Avanzado",
+      "name": "Astro.js",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Vue.js",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     }
   ],
@@ -165,48 +204,18 @@
   ],
   "interests": [
     {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
+      "name": "Calisthenics",
+      "keywords": ["pull-ups", "chin-ups", "muscle-up", "push-ups"]
     }
   ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }
-  ],
+
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Juego aviadores",
       "isActive": true,
       "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
-      "url": "https://codi.link",
+      "highlights": ["Aviadores", "Vue.js", "En desarrollo"],
+      "url": "https://mars.codes",
       "github": "https://github.com/midudev/codi.link"
     }
   ]
