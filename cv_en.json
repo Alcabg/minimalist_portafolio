@@ -198,7 +198,7 @@
     {
       "name": "Aviators game",
       "isActive": true,
-      "description": "Battle Game where you can choose two aviation aces cards to fight among themselves",
+      "description": "Battle Game where the user can choose two aviation aces cards to fight among themselves.",
       "highlights": ["Aviators", "Vue.js", "Work in progress"],
       "url": "https://",
       "github": "https://github.com/Alcabg/cartas_aviadores"

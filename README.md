@@ -1,6 +1,10 @@
 # Minimalist Astro Portfolio
 
-## Inspiratin
+## About the project
+
+Minimalist portfolio made with Astro, where the user can choose the theme and can acces the different social media and can print or check those media by pressing **ctrl+k**.
+
+## Inspired by
 
 JSON Schema for CV:
 https://jsonresume.org/schema
