@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Alejandro Cabrera González",
-    "label": "Junior Full Stack Developer & Historiador",
+    "label": "Junior Full Stack Developer & Historian of Science",
     "image": "/cv_photo.webp",
     "email": "alexcabrerag@gmail.com",
     "phone": "+34 688888888",
@@ -24,7 +24,7 @@
       {
         "network": "GitHub",
         "username": "alcabg",
-        "url": "https://github.com/alcabg"
+        "url": "https://github.com/Alcabg"
       }
     ]
   },
@@ -89,7 +89,7 @@
       "startDate": "2011-09-10",
       "endDate": "2015-06-20",
       "score": "6.8",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": []
     }
   ],
   "awards": [
@@ -97,7 +97,7 @@
       "title": "Award",
       "date": "2014-11-01",
       "awarder": "Company",
-      "summary": "There is no spoon."
+      "summary": ""
     }
   ],
   "certificates": [
@@ -126,54 +126,39 @@
   "skills": [
     {
       "name": "HTML",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "keywords": ["Web Development", "Frontend"]
     },
     {
       "name": "CSS",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      "keywords": ["Web Development", "Frontend", "Responsive Design"]
     },
     {
       "name": "JavaScript",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "PHP",
-      "keywords": ["Desarrollo Web", "Backend", "Servidor"]
+      "keywords": ["Web Development", "Backend", "Server"]
     },
     {
       "name": "Node.js",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
     },
     {
       "name": "MySQL",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
+      "keywords": ["Database", "SQL", "Data Storage", "Backend"]
     },
     {
       "name": "MongoDB",
-      "keywords": [
-        "Bases de Datos",
-        "NOSQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
+      "keywords": ["Database", "NOSQL", "Data Storage", "Backend"]
     },
     {
       "name": "Git",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      "keywords": ["Version Control", "Cooperation", "Source Code"]
     },
     {
       "name": "GitHub",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
-      ]
+      "keywords": ["Version Control", "Cooperation", "Source Code", "Git"]
     },
     {
       "name": "Astro.js",
@@ -211,12 +196,12 @@
 
   "projects": [
     {
-      "name": "Juego aviadores",
+      "name": "Aviators game",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Aviadores", "Vue.js", "En desarrollo"],
-      "url": "https://mars.codes",
-      "github": "https://github.com/midudev/codi.link"
+      "description": "Battle Game where you can choose two aviation aces cards to fight among themselves",
+      "highlights": ["Aviators", "Vue.js", "Work in progress"],
+      "url": "https://",
+      "github": "https://github.com/Alcabg/cartas_aviadores"
     }
   ]
 }
