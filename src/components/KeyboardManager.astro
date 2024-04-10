@@ -1,10 +1,11 @@
 ---
-import { basics } from "@cv_en";
-// import { basics } from "@cv";
+import { type SocialIcon } from "@/types";
+import { basics } from "@cv";
+// import { basics } from "@cv_es";
 
 const { profiles } = basics;
 
-const SOCIAL_ICONS: Record<string, string> = {
+const SOCIAL_ICONS: SocialIcon = {
   GitHub: `<svg style="margin-right:8px"
   width="20"
   height="20"
@@ -32,7 +33,7 @@ const SOCIAL_ICONS: Record<string, string> = {
 
 const profilesInfo = profiles.map(({ network, url }) => {
   const icon = SOCIAL_ICONS[network];
-  const firstLetter = network[0].toLocaleUpperCase();
+  const firstLetter = network[0].toUpperCase();
 
   return {
     id: network,
@@ -86,30 +87,9 @@ const profilesInfo = profiles.map(({ network, url }) => {
     url: string;
     icon: string;
     hotkey: string;
-    handler?: () => void;
   }
 
-  // const ninja = document.querySelector("ninja-keys");
-  interface NinjaKeysElement extends HTMLElement {
-    data: Info[];
-  }
-
-  const ninja = document.querySelector<NinjaKeysElement>("ninja-keys")!;
-  const footerButton = document.getElementById("footer-button");
-
-  footerButton?.addEventListener("click", () => {
-    var event = new KeyboardEvent("keydown", {
-      key: "K",
-      code: "KeyK",
-      keyCode: 75,
-      which: 75,
-      ctrlKey: true,
-      altKey: false,
-      shiftKey: false,
-      metaKey: false,
-    });
-    document.dispatchEvent(event);
-  });
+  const ninja = document.querySelector("ninja-keys");
 
   if (ninja != null) {
     const info = ninja.getAttribute("data-info") ?? "[]";
@@ -146,6 +126,21 @@ const profilesInfo = profiles.map(({ network, url }) => {
       ...data,
     ];
   }
+
+  const footerButton = document.getElementById("footer-button");
+  footerButton?.addEventListener("click", () => {
+    var event = new KeyboardEvent("keydown", {
+      key: "K",
+      code: "KeyK",
+      keyCode: 75,
+      which: 75,
+      ctrlKey: true,
+      altKey: false,
+      shiftKey: false,
+      metaKey: false,
+    });
+    document.dispatchEvent(event);
+  });
 </script>
 <style>
   @media print {
@@ -164,7 +159,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
   }
 
   @media (min-width: 601px) {
-    #normal-footer {
+    #normal__footer {
       display: block;
     }
     #footer-button {
@@ -172,7 +167,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
     }
   }
   @media (max-width: 600px) {
-    #normal-footer {
+    #normal__footer {
       display: none;
     }
     #footer-button {

@@ -1,17 +1,18 @@
 ---
-import { basics } from "@cv_en";
-// import { basics } from "@cv";
+import { basics } from "@cv";
+// import { basics } from "@cv_es";
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
 import GitHub from "@/icons/GitHub.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import WorldMap from "@/icons/WorldMap.astro";
+import type { SocialIcon } from "@/types";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
-const SOCIAL_ICONS: Record<string, any> = {
+const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn,
 };
@@ -151,5 +152,32 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
   footer a:hover {
     background: var(--color-footer-hero-hover);
     border: 1px solid #ddd;
+  }
+
+  @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+      text-align: center;
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
   }
 </style>

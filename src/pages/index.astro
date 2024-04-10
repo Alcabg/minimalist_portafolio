@@ -10,8 +10,8 @@ import Skills from "@/components/sections/Skills.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 import ThemeIcon from "@/components/ThemeIcon.astro";
 
-// import { basics } from "@cv";
-import { basics } from "@cv_en";
+// import { basics } from "@cv_es";
+import { basics } from "@cv";
 const { name, label } = basics;
 ---
 
@@ -24,15 +24,20 @@ const { name, label } = basics;
     <Education />
     <Projects />
     <Skills />
-
-    <KeyboardManager />
   </main>
-
-  <style>
-    main {
-      padding: 1.5rem; /*4rem*/
-      margin: auto;
-      width: 100%;
-    }
-  </style>
+  <KeyboardManager />
 </Layout>
+
+<style>
+  main {
+    padding: 1.5rem; /*4rem*/
+    margin: auto;
+    width: 100%;
+  }
+
+  @media (width <= 700px) {
+    main {
+      padding: 2rem;
+    }
+  }
+</style>

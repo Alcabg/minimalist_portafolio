@@ -1,8 +1,8 @@
 ---
 import Section from "../Section.astro";
 
-import { education } from "@cv_en";
-// import { education } from "@cv";
+import { education } from "cv.json";
+// import { education } from "@cv_es";
 ---
 
 <Section title="Education">
@@ -45,7 +45,7 @@ import { education } from "@cv_en";
 
   article h3 {
     font-weight: 500;
-    color: #111;
+    color: var(--color-article-h3);
   }
 
   article h4 {
@@ -65,6 +65,9 @@ import { education } from "@cv_en";
     font-size: 0.85rem;
   }
 
+  footer p {
+    color: var(--color-footer-p);
+  }
   @media (width <= 700px) {
     time {
       text-align: right;

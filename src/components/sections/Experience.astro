@@ -1,8 +1,8 @@
 ---
 import Section from "../Section.astro";
 
-// import { work } from "@cv";
-import { work } from "@cv_en";
+import { work } from "cv.json";
+// import { work } from "@cv_es";
 ---
 
 <Section title="Experience">
@@ -69,5 +69,11 @@ import { work } from "@cv_en";
 
   p {
     color: var(--color-p);
+  }
+
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
   }
 </style>
