@@ -4,7 +4,7 @@
     "label": "Junior Full Stack Developer & Historian of Science",
     "image": "/cv_photo.webp",
     "email": "alexcabrerag@gmail.com",
-    "phone": "+34 688888888",
+    "phone": "+34 679500858",
     "url": "",
     "summary": "Junior full stack developer and Historian with knowledge in HTML5, CSS, SCSS, XML, Bootstrap, Java, JavaScript, VUE, Python, R, Shiny, MySQL, MongoDB, PHP, and Node.js. I live in Barcelona, Spain. I have worked in various fields related to the educational sector and the cultural sector.",
     "location": {
@@ -202,6 +202,14 @@
       "highlights": ["Aviators", "Vue.js", "Work in progress"],
       "url": "https://",
       "github": "https://github.com/Alcabg/cartas_aviadores"
+    },
+    {
+      "name": "Minimalist portfolio",
+      "isActive": true,
+      "description": "Minimalist portfolio made with Astro.",
+      "highlights": ["Portfolio", "Minimalist", "Astro"],
+      "url": "https://",
+      "github": "https://github.com/Alcabg/minimalist_portafolio"
     }
   ]
 }
