@@ -200,7 +200,7 @@
       "isActive": true,
       "description": "Battle Game where the user can choose two aviation aces cards to fight among themselves.",
       "highlights": ["Aviators", "Vue.js", "Work in progress"],
-      "url": "https://",
+      "url": "https://github.com/Alcabg/cartas_aviadores",
       "github": "https://github.com/Alcabg/cartas_aviadores"
     },
     {
@@ -208,7 +208,7 @@
       "isActive": true,
       "description": "Minimalist portfolio made with Astro.",
       "highlights": ["Portfolio", "Minimalist", "Astro"],
-      "url": "https://",
+      "url": "https://github.com/Alcabg/minimalist_portafolio.git",
       "github": "https://github.com/Alcabg/minimalist_portafolio"
     }
   ]
