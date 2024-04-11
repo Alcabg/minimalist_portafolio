@@ -1,7 +1,7 @@
 ---
 import Section from "../Section.astro";
 
-import { projects } from "cv.json";
+import { projects } from "@cv";
 // import { projects } from "@cv_es";
 ---
 
@@ -14,7 +14,7 @@ import { projects } from "cv.json";
             <article>
               <header>
                 <h3>
-                  <a href={url} title={`Ver el proyecto ${name}`}>
+                  <a href={url} title={`Watch the project ${name}`}>
                     {name}
                   </a>
                   {isActive && <span>&bull;</span>}
@@ -76,6 +76,7 @@ import { projects } from "cv.json";
   article h3 span {
     color: rgb(0, 188, 64);
   }
+
   footer {
     display: flex;
     flex-wrap: wrap;

@@ -1,6 +1,19 @@
 {
   "extends": "astro/tsconfigs/strict",
+  "exclude": ["node_modules", "studio"],
   "compilerOptions": {
+    "types": ["astro/client"],
+    "target": "ESNext",
+    "module": "ESNext",
+    // Enable node-style module resolution, for things like npm package imports.
+    "moduleResolution": "node",
+    // Enable JSON imports.
+    "resolveJsonModule": true,
+    // Enable stricter transpilation for better output.
+    "isolatedModules": true,
+    // Astro will directly run your TypeScript code, no transpilation needed.
+    "noEmit": true,
+    "verbatimModuleSyntax": true,
     "baseUrl": ".",
     "paths": {
       "@cv": ["./cv.json"],
