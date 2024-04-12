@@ -1,8 +1,6 @@
 ---
 import Section from "../Section.astro";
-
 import { education } from "@cv";
-// import { education } from "@cv_es";
 ---
 
 <Section title="Education">
@@ -19,14 +17,14 @@ import { education } from "@cv";
             <article>
               <header>
                 <div>
-                  <h3>{institution}</h3>
+                  <h3>{area}</h3>
                 </div>
 
                 <time>{years}</time>
               </header>
 
               <footer>
-                <p>{area}</p>
+                <p>{institution}</p>
               </footer>
             </article>
           </li>

@@ -1,0 +1,56 @@
+---
+import Section from "../Section.astro";
+import { languages } from "@cv";
+import Spain from "@/icons/es.astro";
+import Catalan from "@/icons/es-ct.astro";
+import English from "@/icons/gb.astro";
+import Dutch from "@/icons/nl.astro";
+
+const LANGUAGE_ICONS: Record<string, any> = {
+  Spanish: Spain,
+  Catalan: Catalan,
+  English: English,
+  Dutch: Dutch,
+};
+---
+
+<Section title="Languages">
+  <ul>
+    {
+      languages.map((lang) => {
+        const Icon = LANGUAGE_ICONS[lang.language];
+        return (
+          <li>
+            {Icon && <Icon />} <span>{lang.language}</span> -{" "}
+            <span>{lang.fluency}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    border-radius: 6px;
+    background: #eee;
+    color: black;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.6rem;
+  }
+
+  span:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-p);
+  }
+</style>
