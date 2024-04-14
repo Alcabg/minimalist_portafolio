@@ -40,7 +40,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={`Send an e-mail to ${name} at ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -48,7 +48,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
             </a>
           )
         }
-        {
+        <!-- {
           phone && (
             <a
               href={`tel:${phone}`}
@@ -59,7 +59,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
               <Phone />
             </a>
           )
-        }
+        } -->
         {
           profiles.map(({ network, url, username }) => {
             const Icon = SOCIAL_ICONS[network];
@@ -67,7 +67,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
+                title={`Visit ${name} profile at ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
