@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Alejandro Cabrera González",
-    "label": "Junior Full Stack Developer & Historian of Science",
+    "label": "eBR/MES Consultant, Junior Full Stack Developer & Historian of Science",
     "image": "/cv_photo.webp",
     "email": "alexcabrerag@gmail.com",
     "phone": "+34 666666666",
@@ -29,6 +29,14 @@
     ]
   },
   "work": [
+    {
+      "name": "OYTEC",
+      "position": "eBR/MES Consultant",
+      "url": "https://oytec.es/",
+      "startDate": "2024-01-07",
+      "endDate": "2024-00-00",
+      "summary": "I am developing guides and consulting for pharma companies by using the SIEMENS software Opcenter Execution Pharma."
+    },
     {
       "name": "ESSistemas",
       "position": "Intern front-end developer",
@@ -167,6 +175,21 @@
     {
       "name": "Vue.js",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "eBR",
+      "keywords": ["electronic batch recording (eBR)", "Pharma"]
+    },
+    {
+      "name": "MES",
+      "keywords": ["manufacturing execution system (MES)", "Pharma"]
+    },
+    {
+      "name": "Opcenter Execution Pharma",
+      "keywords": [
+        "electronic batch recording (eBR) & manufacturing execution system (MES)",
+        "Pharma"
+      ]
     }
   ],
   "languages": [
