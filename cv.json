@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Alejandro Cabrera González",
-    "label": "eBR/MES Consultant, Junior Full Stack Developer & Historian of Science",
+    "label": "eBR/MES consultant | Siemens Opcenter EXPH | KEPServerEx/ OPC UA",
     "image": "/cv_photo.webp",
     "email": "alexcabrerag@gmail.com",
     "phone": "+34 666666666",
     "url": "",
-    "summary": "eBR/MES Consultant, junior full stack developer and Historian with knowledge in HTML5, CSS, SCSS, XML, Bootstrap, Java, JavaScript, VUE, Python, R, Shiny, MySQL, MongoDB, PHP, and Node.js. I live in Barcelona, Spain. I have worked in various fields related to the educational sector and the cultural sector.",
+    "summary": "eBR/MES consultant with a technical background in bioinformatics and experience in highly regulated environments (GxP/GAMP5). Currently working with Siemens Opcenter Execution Pharma (EX PH) on PI (Process Instruction) design, electronic recipe configuration, and Computer System Validation (CSV). Hands-on experience in MES ↔️ SCADA/DCS integration via OPC UA, enabling real-time read/write data exchange from PI to control systems using KEPServerEX. Simulated tags for testing and connectivity validation, using UA Expert as an OPC client. Passionate about digitalizing and optimizing pharmaceutical manufacturing processes, with a strong focus on compliance, traceability, and data integrity. Open to remote opportunities or relocation to the Netherlands.",
     "location": {
       "address": "",
       "postalCode": "08020",
@@ -35,7 +35,7 @@
       "url": "https://oytec.es/",
       "startDate": "2024-01-07",
       "endDate": "present",
-      "summary": "I am developing guides and consulting for pharma companies by using the SIEMENS software Opcenter Execution Pharma."
+      "summary": "Configured Siemens Opcenter EX PH for electronic batch records and manufacturing guides (PI) in GMP-regulated environments. Implemented real-time data exchange between PI and SCADA/DCS systems via OPC UA, enabling process integration. Used KEPServerEX to configure OPC nodes and simulate tags for development and testing. Validated MES-to-plant floor connectivity under GxP/CSV guidelines, including documentation and test execution. Leveraged UA Expert/KEPServerEx for OPC node browsing and communication diagnostics."
     },
     {
       "name": "ESSistemas",
@@ -185,10 +185,38 @@
       "keywords": ["manufacturing execution system (MES)", "Pharma"]
     },
     {
-      "name": "Opcenter Execution Pharma",
+      "name": "Opcenter Execution Pharma (EX PH)",
       "keywords": [
         "electronic batch recording (eBR) & manufacturing execution system (MES)",
         "Pharma"
+      ]
+    },
+    {
+      "name": "Systems Integration: OPC UA (read/write via PI), KEPServerEX (tag simulation and configuration), UA Expert",
+      "keywords": [
+        "OPC UA",
+        "KEPServerEX",
+        "UA Expert",
+        "MES integration",
+        "DCS/SCADA connectivity",
+        "industrial automation",
+        "Siemens Opcenter",
+        "eBR integration",
+        "pharma manufacturing"
+      ]
+    },
+    {
+      "name": "Regulated Environments: GxP, GAMP5, 21 CFR Part 11, CSV",
+      "keywords": [
+        "GxP compliance",
+        "GAMP5",
+        "21 CFR Part 11",
+        "CSV validation",
+        "regulated environments",
+        "pharmaceutical industry",
+        "data integrity",
+        "QA/validation",
+        "MES in Pharma"
       ]
     }
   ],
