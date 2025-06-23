@@ -34,7 +34,7 @@
       "position": "eBR/MES Consultant",
       "url": "https://oytec.es/",
       "startDate": "2025-01-07",
-      "endDate": "Present",
+      "endDate": "present",
       "summary": "Configured Siemens Opcenter EX PH for electronic batch records and manufacturing guides (PI) in GMP-regulated environments. Implemented real-time data exchange between PI and SCADA/DCS systems via OPC UA, enabling process integration. Used KEPServerEX to configure OPC nodes and simulate tags for development and testing. Validated MES-to-plant floor connectivity under GxP/CSV guidelines, including documentation and test execution. Leveraged UA Expert/KEPServerEx for OPC node browsing and communication diagnostics."
     },
     {
@@ -192,11 +192,37 @@
       ]
     },
     {
-      "name": "Systems Integration: OPC UA (read/write via PI), KEPServerEX (tag simulation and configuration), UA Expert",
+      "name": "UA Expert",
+      "keywords": [
+        "OPC UA",
+        "UA Expert",
+        "MES integration",
+        "DCS/SCADA connectivity",
+        "industrial automation",
+        "Siemens Opcenter",
+        "eBR integration",
+        "pharma manufacturing"
+      ]
+    },
+    {
+      "name": "OPC UA",
       "keywords": [
         "OPC UA",
         "KEPServerEX",
         "UA Expert",
+        "MES integration",
+        "DCS/SCADA connectivity",
+        "industrial automation",
+        "Siemens Opcenter",
+        "eBR integration",
+        "pharma manufacturing"
+      ]
+    },
+    {
+      "name": "KEPServerEX",
+      "keywords": [
+        "OPC UA",
+        "KEPServerEX",
         "MES integration",
         "DCS/SCADA connectivity",
         "industrial automation",
