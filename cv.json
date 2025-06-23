@@ -33,8 +33,8 @@
       "name": "OYTEC",
       "position": "eBR/MES Consultant",
       "url": "https://oytec.es/",
-      "startDate": "2024-01-07",
-      "endDate": "present",
+      "startDate": "2025-01-07",
+      "endDate": "Present",
       "summary": "Configured Siemens Opcenter EX PH for electronic batch records and manufacturing guides (PI) in GMP-regulated environments. Implemented real-time data exchange between PI and SCADA/DCS systems via OPC UA, enabling process integration. Used KEPServerEX to configure OPC nodes and simulate tags for development and testing. Validated MES-to-plant floor connectivity under GxP/CSV guidelines, including documentation and test execution. Leveraged UA Expert/KEPServerEx for OPC node browsing and communication diagnostics."
     },
     {
